@@ -972,6 +972,16 @@ main {
 
 }
 
+@media(max-width: 490px) {
+
+    .section1-content p, .section2-content p, .section3-content p,
+    .section4-content p, .section5-content p {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px;
+    }
+}
+
 @media (max-width: 320px) {
     .nav-button {
         height: 44px;
@@ -1012,12 +1022,7 @@ main {
         /* or 175% */
     }
 
-    .section1-content p, .section2-content p, .section3-content p,
-    .section4-content p, .section5-content p {
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 28px;
-    }
+
 
     .copyright p {
         text-align: center;
